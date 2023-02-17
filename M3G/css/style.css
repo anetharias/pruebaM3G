@@ -1,0 +1,172 @@
+.img-with-text {
+    text-align: justify;
+    width: [width of img];
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    width: 15%;
+    z-index: 1;
+    margin-top: 80px;
+  }
+  .image2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 20%;
+    margin-top: 100px;
+    margin-left: 140px;
+  }
+  .image3 {
+    position: relative;
+    width: 23%;
+    margin-bottom: 90px;
+    margin-left: 180px;
+  }
+  .image4 {
+    z-index: 2;
+    position: absolute;
+    top: 60px;
+    left: 470px;
+    width: 14%;
+    margin-top: 100px;
+    margin-left: 140px;
+  }
+  .image5 {
+    position: absolute;
+    top: -60px;
+    width: 16%;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+#columnas{
+    column-count:2;
+    column-gap:20px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #999999;
+    text-align: justify;
+    margin-left: 200px;
+ }
+
+ html{scroll-behavior:smooth}
+
+ .contenedor a{
+    text-decoration: none;
+ }
+
+.habilidades{
+    width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: -450px;
+    margin-left: 50px;
+    background-color: #2871cd;
+    height: 350px;
+}
+
+.habilidades2{
+    width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: -369px;
+    margin-left: 800px;
+    background-color: #2871cd;
+    height: 350px;
+}
+.container{
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills{
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.html{
+    background-color: white;
+    color: black;
+    animation: fillhtml 2s forwards ;
+    height: 10px;
+}
+
+.css{
+    background-color: white;
+    color: black;
+    animation: fillcss 2s forwards ;
+    height: 10px;
+}
+.javascript{
+    background-color: white;
+    color: black;
+    animation: filljavascript 2s forwards ;
+    height: 10px;
+}
+
+@keyframes fillhtml {
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+@keyframes fillcss {
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+@keyframes filljavascript {
+    0%{width: 0;}
+    100%{width: 50%;}
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Staatliches&display=swap');
+
+
+.animation {
+  color: black;
+  animation: fadeInRight 8s ease-in-out;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animation2 {
+    color: black;
+    animation: fadeInUp 10s ease-in-out;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateX(300px);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+ 
+  
